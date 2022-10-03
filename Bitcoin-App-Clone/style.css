@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.nav>h1 {
+    color: #f79846;
+    font-size: 5rem;
+    padding-left: 3rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 2rem;
+    padding-top: 2rem;
+    color: #ffff;
+}
+
+ul>li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+
+}
+
+.button {
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 3rem;
+    border: none;
+    width: 15rem;
+    background-color: #f79846;
+    color: #ffff;
+}
+
+.upper-content {
+    background-color: #1d1d1d;
+}
+
+.content>h2 {
+    font-size: 6rem;
+    color: #ffff;
+    padding-bottom: 3rem;
+}
+
+.content>p {
+    font-size: 1.5rem;
+    color: #ffff;
+    padding-bottom: 8rem;
+
+}
+
+.upper-two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15rem;
+}
+
+.image {
+    position: relative;
+    bottom: 7rem;
+}
+
+#button {
+    width: 20rem;
+    height: 5rem;
+    font-size: 2rem;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon>h1,
+.icon>p {
+    color: #ffff;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.upper-three {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#first-image {
+    width: 16rem;
+}
+
+.upper-four>h1 {
+    color: #ffff;
+    text-align: center;
+    font-size: 5rem;
+}
+
+.upper-four>p {
+    font-size: 2rem;
+    color: #ffff;
+    text-align: center;
+}
+
+.stacking>h1,
+.bonding>h1 {
+    color: #ffff;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.stacking>p,
+.bonding>p {
+    color: #ffff;
+    font-size: 2rem;
+}
+
+.two {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+}
+
+.stacking,
+.bonding {
+    border: 0.2rem solid transparent;
+    padding: 3rem;
+    border-image: linear-gradient(70deg, #f79846, #1d1d1d);
+    border-image-slice: 1;
+}
+#upper-h1{
+    font-size: 3.5rem;
+    padding-bottom: 20rem;
+}
+.adiri-token{
+    background-image: linear-gradient(100deg, #45301d,#a0693c );
+    border-image-slice: 1;
+}
+.first-column{
+    color: #ffff;
+}
+.first-column>h1{
+    font-size: 5rem;
+}
+.first-column>p{
+    font-size: 1.5rem;
+}
+.first-column>h2{
+    font-size: 2.5rem;
+}
+#check{
+    color: #ffff;
+    background-color: #f79846;
+    padding: 1rem;
+    font-size: 2.5rem;
+    border-radius: 5rem;
+    width: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#checkbox{
+    padding: 2rem;
+    font-size: 3rem;
+}
+.first-two{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+.second-column-second>h2{
+    font-size: 5rem;
+    color: #ffff;
+    padding-bottom: 2rem;
+    position: relative;
+    top: 10rem;
+}
+.second-column-second>p{
+    font-size: 1.5rem;
+    color: #ffff;
+    position: relative;
+    top: 10rem;
+}
+.second-two{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bitcoin-roadmap{
+    background-image: linear-gradient(180deg,#1d1d1d,#1d1d1d,#382f28);
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+.bitcoin-roadmap>h1{
+    font-size: 5rem;
+    text-align: center;
+    color: #ffff;
+    padding-bottom: 5rem;
+}
+.columns{
+    display: flex;
+    justify-content: space-evenly;
+}
+#f-1>h1{
+    font-size: 3rem;
+}
+#f-1>p{
+    font-size: 2rem;
+}
+#f-1{
+    border: 0.2rem solid transparent;
+    padding: 3rem;
+    border-image: linear-gradient(70deg, #f79846, #1d1d1d);
+    border-image-slice: 1;
+    width: 50rem;
+}
